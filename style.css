@@ -1,0 +1,53 @@
+.book-view-area {
+  display: flex;
+  height: 94vh;
+  width: 100%;
+  justify-content: center;
+}
+
+#action-layer {
+  position: absolute;
+  /*  background-color: rgba(87, 238, 255, 0.5); debug */
+  z-index: 10;
+}
+
+#draw-able {
+  position: absolute;
+  background-color: rgb(5, 66, 5, 0.8);
+}
+
+#tool-area {
+  height: 8vh;
+  width: 100%;
+  background: #bff8fc;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#tool-area > .left-button-area {
+  width: max-content;
+  height: inherit;
+  padding-left: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.tool-button {
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(0, 0, 0, 0);
+  border: solid 0px;
+  align-self: center;
+}
+
+.tool-button img {
+  width: 40%;
+  height: 40%;
+}
+
+.tool-button p {
+  font-size: 1rem;
+}
